@@ -9,7 +9,6 @@ RCloud.UI.column_sizer = {
             zindex: 10000,
             revert: true,
             revertDuration: 0,
-            //grid: [window.innerWidth/12, 0],
             stop: function(event, ui) {
                 var wid_over_12 = window.innerWidth/12;
                 // position is relative to parent, the notebook
